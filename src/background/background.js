@@ -14,7 +14,8 @@ chrome.runtime.onInstalled.addListener(function() {
             actions: [new chrome.declarativeContent.ShowPageAction()]
           }
         ]);
-    
+        
+        
         // Set the Branch name to use
         // const defaultBranchName = "DEFAULT_BRANCHNAME";
         // const isEmptyObject = target =>
